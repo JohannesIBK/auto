@@ -1,0 +1,13 @@
+{
+  "name": "auto",
+  "packageManager": "yarn@4.1.1",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "devDependencies": {
+    "@nestjs/cli": "^10.3.2",
+    "@nestjs/schematics": "^10.1.1",
+    "typescript": "^5.4.2"
+  }
+}
