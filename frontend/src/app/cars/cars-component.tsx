@@ -7,7 +7,7 @@ import RentCarModal from "@/app/cars/rent-car-modal";
 import ReturnCarModal from "@/app/cars/return-car-modal";
 import CreateCarModal from "@/app/cars/create-car-modal";
 
-function CustomerComponent() {
+function CarsComponent() {
   const [search, setSearch] = useState("");
   const [createCar, setCreateCar] = useState(false);
   const [rentCar, setRentCar] = useState<null | Car>(null);
@@ -80,4 +80,4 @@ function CustomerComponent() {
   );
 }
 
-export default CustomerComponent;
+export default CarsComponent;

@@ -2,13 +2,13 @@
 
 import { Title } from "@mantine/core";
 
-import CustomerComponent from "@/app/cars/customer-component";
+import CarsComponent from "@/app/cars/cars-component";
 
 function Page() {
   return (
     <>
       <Title>Cars</Title>
-      <CustomerComponent />
+      <CarsComponent />
     </>
   );
 }
