@@ -76,3 +76,7 @@ export async function fetchCustomers(params?: { search?: string }) {
 
   return request.data;
 }
+
+export async function deleteCustomer(id: number) {
+  return await axios.delete<void>(`${API_URL}/customer/${id}`);
+}
